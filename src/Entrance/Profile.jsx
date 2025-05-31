@@ -17,7 +17,7 @@ function Profile() {
                         <tbody>
                             <tr>
                                 <td scope="row" style={{fontWeight: 'bold'}}>
-                                    Doğum Tarihi
+                                    Date of Birth
                                 </td>
                                 <td>
                                     28.03.1993
@@ -25,7 +25,7 @@ function Profile() {
                             </tr>
                             <tr>
                                 <td scope="row" style={{fontWeight: 'bold'}}>
-                                    İkametgah Şehri
+                                    City of Residence
                                 </td>
                                 <td>
                                     Mersin
@@ -33,15 +33,15 @@ function Profile() {
                             </tr>
                             <tr>
                                 <td scope="row" style={{fontWeight: 'bold'}}>
-                                    Eğitim Durumu
+                                    Education Level
                                 </td>
                                 <td>
-                                    Çukurova Üniversitesi | Bilgisayar Mühendisliği
+                                    Çukurova University | Computer Science
                                 </td>
                             </tr>
                             <tr>
                                 <td scope="row" style={{fontWeight: 'bold'}}>
-                                    Tercih Ettiği Rol
+                                    Preferred Role
                                 </td>
                                 <td>
                                     Data Science

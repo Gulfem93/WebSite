@@ -12,12 +12,12 @@ function Hero() {
                 <div className="profile-content">
                     <CardText className="profile-bio">
                         <h5 style={{ fontWeight: "bold" }}>Data Science</h5>
-                        Çukurova Üniversitesi bilgisayar mühendisliği
+                        I’m interested in Machine Learning. In order to achieve success in this field, I conduct detailed research from the simplest to the most complex. I want to be an expert in this field.
                     </CardText>
 
                     <ButtonGroup className="contact-button-group">
                         <Button color="primary" className="contact-button">
-                            İletişime Geç
+                            Hire Me
                         </Button>
                         <Button
                             color="primary"
