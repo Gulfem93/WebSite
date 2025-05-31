@@ -16,7 +16,7 @@ function Profile() {
                         </thead>
                         <tbody>
                             <tr>
-                                <td scope="row" style={{fontWeight: 'bold'}}>
+                                <td scope="row" style={{ fontWeight: 'bold' }}>
                                     Date of Birth
                                 </td>
                                 <td>
@@ -24,7 +24,7 @@ function Profile() {
                                 </td>
                             </tr>
                             <tr>
-                                <td scope="row" style={{fontWeight: 'bold'}}>
+                                <td scope="row" style={{ fontWeight: 'bold' }}>
                                     City of Residence
                                 </td>
                                 <td>
@@ -32,7 +32,7 @@ function Profile() {
                                 </td>
                             </tr>
                             <tr>
-                                <td scope="row" style={{fontWeight: 'bold'}}>
+                                <td scope="row" style={{ fontWeight: 'bold' }}>
                                     Education Level
                                 </td>
                                 <td>
@@ -40,7 +40,7 @@ function Profile() {
                                 </td>
                             </tr>
                             <tr>
-                                <td scope="row" style={{fontWeight: 'bold'}}>
+                                <td scope="row" style={{ fontWeight: 'bold' }}>
                                     Preferred Role
                                 </td>
                                 <td>
@@ -52,9 +52,11 @@ function Profile() {
                 </div>
                 <div>
                     <Label style={{ color: "#4338CA", fontSize: "28px" }}>About Me</Label>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.
+                    <p>
+                        I hold a Bachelor's degree in Computer Engineering from Çukurova University, where I developed a solid foundation in core computing principles alongside hands-on experience in applied research. My undergraduate internship focused on the development of image processing algorithms using MATLAB, emphasizing signal analysis and visual data interpretation. For my senior thesis, I conducted research in the domain of Natural Language Processing (NLP), implementing various language modeling and text analysis techniques using Python.
 
-                        Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam! </p>
+                        My primary areas of interest include Data Science, Machine Learning, and Artificial Intelligence. I am particularly motivated by interdisciplinary applications of data-driven technologies and am currently seeking research and professional opportunities to further deepen my expertise and contribute to innovative projects in these fields.
+                    </p>
                 </div>
 
 
