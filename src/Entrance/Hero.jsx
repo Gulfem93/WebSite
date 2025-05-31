@@ -12,22 +12,37 @@ function Hero() {
                 <div className="profile-content">
                     <CardText className="profile-bio">
                         <h5 style={{ fontWeight: "bold" }}>Data Science</h5>
-                        Merhaba! Ben Gülfem Işık. Web geliştirme ve tasarım konusunda uzmanım.
+                        Çukurova Üniversitesi bilgisayar mühendisliği
                     </CardText>
 
                     <ButtonGroup className="contact-button-group">
                         <Button color="primary" className="contact-button">
                             İletişime Geç
                         </Button>
-                        <Button color="primary" outline>
+                        <Button
+                            color="primary"
+                            outline
+                            tag="a"
+                            href="https://github.com/Gulfem93"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                             <FaGithub className="me-2" />
                             Github
                         </Button>
-                        <Button color="primary" outline>
-                            <FaLinkedin className="me-2" /> {/* LinkedIn ikonu eklendi */}
+                        <Button
+                            color="primary"
+                            outline
+                            tag="a"
+                            href="https://www.linkedin.com/in/gulfem-isik/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <FaLinkedin className="me-2" />
                             LinkedIn
                         </Button>
                     </ButtonGroup>
+
                 </div>
 
                 <img
