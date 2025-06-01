@@ -1,9 +1,11 @@
 import { Card, CardBody, CardTitle, CardSubtitle, CardText, Button, ButtonGroup } from 'reactstrap';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import './css/projects.css';
-import image1 from './Images/ad5081bf69bb4825e42350e768340fdbec09d78b.png';
-import image2 from './Images/64b806122ad18b91bc83b5e0c2524ee319ac4a12.png';
-import image3 from './Images/600e630ba9370e031b441737654465d0f374af51.png';
+import image1 from './Images/yemekSitesiİmage.png';
+import image2 from './Images/chatbotImage.png';
+import image3 from './Images/SignLanguageDigits.png';
+import image4 from './Images/HeartAttackAnalysisPrediction.png';
+
 
 
 function Projects() {
@@ -20,7 +22,7 @@ function Projects() {
                 <Card className="project-card">
                     <img alt="Project 1" src={image1} className="project-image" />
                     <CardBody>
-                        <CardTitle tag="h5">WorkIntech</CardTitle>
+                        <CardTitle tag="h5">Food Site</CardTitle>
                         <CardSubtitle tag="h6" className="project-subtitle">
                             Full-stack Application
                         </CardSubtitle>
@@ -33,7 +35,7 @@ function Projects() {
                             <span className="bordered-text">JavaScript</span>
                         </ButtonGroup>
                         <nav className='nav-githubWeb'>
-                            <a href="#github">Github</a>
+                            <a href="https://github.com/Gulfem93/fsweb-s8-challenge-pizza" target="_blank" rel="noopener noreferrer">GitHub</a>
                             <a href="#WebSite">WebSite</a>
                         </nav>
                     </CardBody>
@@ -43,20 +45,20 @@ function Projects() {
                 <Card className="project-card">
                     <img alt="Project 2" src={image2} className="project-image" />
                     <CardBody>
-                        <CardTitle tag="h5">Random Jokes</CardTitle>
+                        <CardTitle tag="h5">ChatBot Project</CardTitle>
                         <CardSubtitle tag="h6" className="project-subtitle">
                             API Integration
                         </CardSubtitle>
                         <div className="card-divider"></div>
                         <CardText className="project-description">
-                            Joke generator app that fetches random jokes from a public API.
+                            A chatbot project was developed by integrating React with AI technologies
                         </CardText>
                         <ButtonGroup className="project-buttons">
                             <span className="bordered-text">React</span>
                             <span className="bordered-text">JavaScript</span>
                         </ButtonGroup>
                         <nav className='nav-githubWeb'>
-                            <a href="#github">Github</a>
+                            <a href="https://github.com/Gulfem93/ChatBot" target="_blank" rel="noopener noreferrer">GitHub</a>
                             <a href="#WebSite">WebSite</a>
                         </nav>
                     </CardBody>
@@ -66,21 +68,46 @@ function Projects() {
                 <Card className="project-card">
                     <img alt="Project 3" src={image3} className="project-image" />
                     <CardBody>
-                        <CardTitle tag="h5">Journey</CardTitle>
+                        <CardTitle tag="h5">Sign Language Digits</CardTitle>
                         <CardSubtitle tag="h6" className="project-subtitle">
-                            Travel Blog
+                            Python Application
                         </CardSubtitle>
                         <div className="card-divider"></div>
                         <CardText className="project-description">
-                            A responsive travel blog with location-based content filtering.
+                            Data was examined using Python and machine learning. Data analysis was performed. Prediction was made in sign language using machine learning.
                         </CardText>
                         <ButtonGroup className="project-buttons">
-                            <span className="bordered-text">React</span>
-                            <span className="bordered-text">JavaScript</span>
+                            <span className="bordered-text">Python</span>
+                            <span className="bordered-text">Artifical Neural Network</span>
+                            <span className="bordered-text">Jupyter</span>
                         </ButtonGroup>
                         <nav className='nav-githubWeb'>
-                            <a href="#github">Github</a>
+                            <a href="https://github.com/Gulfem93/ChatBot" target="_blank" rel="noopener noreferrer">GitHub</a>
                             <a href="#WebSite">WebSite</a>
+                        </nav>
+                    </CardBody>
+                </Card>
+
+                {/* Project 4 */}
+                <Card className="project-card">
+                    <img alt="Project 3" src={image4} className="project-image" />
+                    <CardBody>
+                        <CardTitle tag="h5">Sign Language Digits</CardTitle>
+                        <CardSubtitle tag="h6" className="project-subtitle">
+                            Python Application
+                        </CardSubtitle>
+                        <div className="card-divider"></div>
+                        <CardText className="project-description">
+                            Data was examined using Python and machine learning. Data analysis was performed. Predictions were made using machine learning.
+                        </CardText>
+                        <ButtonGroup className="project-buttons">
+                            <span className="bordered-text">Python</span>
+                            <span className="bordered-text">Artifical Neural Network</span>
+                            <span className="bordered-text">Jupyter</span>
+                        </ButtonGroup>
+                        <nav className='nav-githubWeb'>
+                            <a href="https://github.com/Gulfem93/ChatBot" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            <a href="https://www.kaggle.com/code/gulfemisik97/heart-attack-analysis-prediction" target="_blank" rel="noopener noreferrer">Kaggle</a>
                         </nav>
                     </CardBody>
                 </Card>

@@ -10,19 +10,19 @@ function Skills() {
             <div className='div-skillLabel'>
                 <div>
                     <Label className='label-skills'>Java Script</Label>
-                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Acquired proficiency in JavaScript through the Workintech training program, gaining hands-on experience in modern web development methodologies and best practices.</p>
                 </div>
                 <div>
                     <Label className='label-skills'>React</Label>
-                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Acquired proficiency in React through the Workintech training program, gaining hands-on experience in modern web development methodologies and best practices.</p>
                 </div>
                 <div>
                     <Label className='label-skills'>Node.Js</Label>
-                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Acquired proficiency in Node.js through the Workintech training program, gaining hands-on experience in modern web development methodologies and best practices.</p>
                 </div>
                 <div>
                     <Label className='label-skills'>Python</Label>
-                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>I completed my graduation thesis using Python programming language, focusing on Natural Language Processing (NLP). Additionally, I implemented machine learning models with Python to achieve the project’s objectives, demonstrating proficiency in AI-driven text analysis and predictive modeling.</p>
                 </div>
             </div>
 
