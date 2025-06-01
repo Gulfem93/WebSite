@@ -82,7 +82,7 @@ function Projects() {
                             <span className="bordered-text">Jupyter</span>
                         </ButtonGroup>
                         <nav className='nav-githubWeb'>
-                            <a href="https://github.com/Gulfem93/ChatBot" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            <a href="https://github.com/Gulfem93/SignLanguageDigits" target="_blank" rel="noopener noreferrer">GitHub</a>
                             <a href="#WebSite">WebSite</a>
                         </nav>
                     </CardBody>
@@ -106,7 +106,7 @@ function Projects() {
                             <span className="bordered-text">Jupyter</span>
                         </ButtonGroup>
                         <nav className='nav-githubWeb'>
-                            <a href="https://github.com/Gulfem93/ChatBot" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            <a href="#github" target="_blank" rel="noopener noreferrer">GitHub</a>
                             <a href="https://www.kaggle.com/code/gulfemisik97/heart-attack-analysis-prediction" target="_blank" rel="noopener noreferrer">Kaggle</a>
                         </nav>
                     </CardBody>
