@@ -92,7 +92,7 @@ function Projects() {
                 <Card className="project-card">
                     <img alt="Project 3" src={image4} className="project-image" />
                     <CardBody>
-                        <CardTitle tag="h5">Sign Language Digits</CardTitle>
+                        <CardTitle tag="h5">Heart Attack Project</CardTitle>
                         <CardSubtitle tag="h6" className="project-subtitle">
                             Python Application
                         </CardSubtitle>
